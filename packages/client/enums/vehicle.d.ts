@@ -4595,7 +4595,26 @@ declare namespace RageEnums.Vehicle {
 		YOUGA3 = 0x6b73a9be
 	}
 
-	enum vStuckType {
+	const enum Seat {
+		Driver = -1,
+		RightFront = 1,
+		LeftRear = 2,
+		RightRear = 3,
+		ExtraSeat1 = 4,
+		ExtraSeat2 = 5,
+		ExtraSeat3 = 6,
+		ExtraSeat4 = 7,
+		ExtraSeat5 = 8,
+		ExtraSeat6 = 9,
+		ExtraSeat7 = 10,
+		ExtraSeat8 = 11,
+		ExtraSeat9 = 12,
+		ExtraSeat10 = 13,
+		ExtraSeat11 = 14,
+		ExtraSeat12 = 15
+	}
+
+	const enum vStuckType {
 		STUCK_ON_ROOF = 0,
 		STUCK_ON_SIDE,
 		STUCK_HUNG_UP,
